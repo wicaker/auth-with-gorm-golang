@@ -8,17 +8,3 @@ type User struct {
 	Email    string `json:"email"`
 	Password string `json:"password"`
 }
-
-// Mail struct to send email
-type Mail struct {
-	senderID string
-	toIds    []string
-	subject  string
-	body     string
-}
-
-// SMPTServer to set host
-type SMPTServer struct {
-	host string
-	port string
-}
